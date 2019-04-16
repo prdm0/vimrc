@@ -16,6 +16,7 @@ In the **.vimrc** file, add all plugins between `call plug#begin('~/.vim/plugged
 ```
 call plug#begin('~/.vim/plugged')
 Plug JuliaEditorSupport/julia-vim
+Plug jpalardy/vim-slime
 call plug#end()
 ```
 Then start a vim section and run `:PlugInstall!`.
